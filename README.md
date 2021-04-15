@@ -8,8 +8,8 @@
 
 initialize array with these operations
 
--List all elements in array
--Search for an element/item in the array
--delete/remove an element/item from the array
+List all elements in array
+Search for an element/item in the array
+delete/remove an element/item from the array
 
 
