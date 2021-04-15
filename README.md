@@ -1,7 +1,10 @@
 # CSC220
 -Data Structure (use of arrays and array operations)
+
 -Langauge used : Dart
+
 -Department : Mathematics
+
 -Algorithm
 
 -Declare three arrays to store students records
