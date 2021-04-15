@@ -8,7 +8,7 @@
 
 initialize array with these operations
 
-L-ist all elements in array
+-List all elements in array
 
 -Search for an element/item in the array
 
