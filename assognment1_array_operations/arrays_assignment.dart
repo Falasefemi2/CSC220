@@ -49,15 +49,15 @@ void main() {
   getArraySize(studentNames);
 
 //this method call displays the all the elements in the array
-  getArrayList(studentGp);
+  getArrayList(studentNames);
 
   //this method call searches for an element in the array
-  searchElement(studentNames, "jeebolar");
+  // searchElement(studentNames, "jeebolar");
 
   //this method call removes an element in the array
-  deleteElement(studentNames, "maryam");
+  // removeElement(studentNames, "maryam");
 
-  getArrayList(studentNames);
+  // getArrayList(studentNames);
 }
 
 //this method gets the length of the list passed in as parameter
@@ -86,7 +86,7 @@ void searchElement(List array, var item) {
 }
 
 //this methods removes an element from the list
-void deleteElement(List array, var item) {
+void removeElement(List array, var item) {
   for (int i = 0; i < array.length; i++) {
     if (array[i] == item) {
       array.removeAt(i);
@@ -94,9 +94,3 @@ void deleteElement(List array, var item) {
     }
   }
 }
-
-// void listCycler(List array, Function inLoopFunction) {
-//   for (int i = 0; i < array.length; i++) {
-//     inLoopFunction();
-//   }
-// }
